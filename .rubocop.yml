@@ -1,0 +1,21 @@
+
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+  TargetRubyVersion: 3.1
+  Include:
+    - 'exploits/{**/,}*.rb'
+  Exclude:
+    - 'vendor/**/*'
+
+inherit_gem:
+  rubocop-ronin: rubocop.yml
+
+#
+# community-pocs specific exceptions
+#
+Style/FrozenStringLiteralComment: { Enabled: false }
+Style/Documentation: { Enabled: false }
+Style/SignalException: { Enabled: false }
+Naming/ClassAndModuleCamelCase: { Enabled: false }
+Layout/FirstHashElementIndentation: { Enabled: false }
