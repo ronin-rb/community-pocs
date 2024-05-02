@@ -9,6 +9,8 @@ A community repository of PoC (Proof of Concept) exploits for [ronin-exploits].
 
 ## Install
 
+Install [ronin][install-ronin] for [ronin-repos] and [ronin-exploits].
+
 This git repository can be installed by the [ronin-repos] command:
 
 ```shell
@@ -46,6 +48,7 @@ You can also run the exploit directly from the repository directory:
 * [ruby] >= 3.0.0
 * [ronin-exploits] >= 1.1.0
 
+[install-ronin]: https://ronin-rb.dev/install/
 [ruby]: https://www.ruby-lang.org/
 [ronin-repos]: https://github.com/ronin-rb/ronin-repos#readme
 [ronin-exploits]: https://github.com/ronin-rb/ronin-exploits#readme
