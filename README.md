@@ -1,5 +1,10 @@
 # community-pocs
 
+* [Website](https://ronin-rb.dev)
+* [Issues](https://github.com/ronin-rb/scripts/issues)
+* [Discord](https://discord.gg/6WAb3PsVX9) |
+  [Mastodon](https://infosec.exchange/@ronin_rb)
+
 A community repository of PoC (Proof of Concept) exploits for [ronin-exploits].
 
 ## Install
