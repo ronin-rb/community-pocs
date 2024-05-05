@@ -24,6 +24,11 @@ Check the [issues] for ideas on which PoC to add.
    ./exploits/<product>/CVE-YYYY-XXXX.rb -p foo=bar ...
    ```
 
+   **Note**: check [vulhub] if they have a `docker-compose.yml` file for the
+   specific CVE which you can then test your PoC exploit against locally.
+
+   [vulhub]: https://github.com/vulhub/vulhub#readme
+
 7. Commit it!
 
    ```shell
