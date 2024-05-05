@@ -10,6 +10,8 @@ gem 'ronin-exploits', '~> 1.1', github: 'ronin-rb/ronin-exploits',
 group :development do
   gem 'rake', require: false
 
+  gem 'rspec', '~> 3.0', require: false
+
   gem 'redcarpet', platform: :mri
   gem 'kramdown',  '~> 2.0', require: false
   gem 'yard',      '~> 0.9', require: false
