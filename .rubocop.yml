@@ -14,8 +14,12 @@ inherit_gem:
 #
 # community-pocs specific exceptions
 #
+Naming/FileName:
+  Exclude:
+    - 'spec/exploits/*/CVE-*_spec.rb'
+    - 'spec/exploits/*/GHSA-*_spec.rb'
+Naming/ClassAndModuleCamelCase: { Enabled: false }
 Style/FrozenStringLiteralComment: { Enabled: false }
 Style/Documentation: { Enabled: false }
 Style/SignalException: { Enabled: false }
-Naming/ClassAndModuleCamelCase: { Enabled: false }
 Layout/FirstHashElementIndentation: { Enabled: false }
