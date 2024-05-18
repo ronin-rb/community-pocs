@@ -23,3 +23,4 @@ Style/FrozenStringLiteralComment: { Enabled: false }
 Style/Documentation: { Enabled: false }
 Style/SignalException: { Enabled: false }
 Layout/FirstHashElementIndentation: { Enabled: false }
+Layout/SpaceAroundOperators: { Enabled: false }
