@@ -14,6 +14,12 @@ inherit_gem:
 #
 # community-pocs specific exceptions
 #
+Layout/LeadingCommentSpace:
+  Exclude:
+    - 'Gemfile'
+Layout/CommentIndentation:
+  Exclude:
+    - 'Gemfile'
 Naming/FileName:
   Exclude:
     - 'spec/exploits/*/CVE-*_spec.rb'
