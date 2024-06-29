@@ -10,18 +10,18 @@ Check the [issues] for ideas on which PoC to add.
    cd community-pocs/
    ```
 
-3. install [ronin-exploits][install-ronin-exploits]
+3. Install dependencies: `bundle install`
 4. Generate a new exploit:
 
    ```shell
-   ronin-exploits new exploits/<product>/CVE-YYYY-XXXX.rb
+   bundle exec ronin-exploits new exploits/<product>/CVE-YYYY-XXXX.rb
    ```
 
 5. Fill in metadata and the `build`/`launch`/`cleanup` methods.
 6. Test it!
 
    ```shell
-   ./exploits/<product>/CVE-YYYY-XXXX.rb -p foo=bar ...
+   bundle exec ./exploits/<product>/CVE-YYYY-XXXX.rb -p foo=bar ...
    ```
 
    **Note**: check [vulhub] if they have a `docker-compose.yml` file for the
