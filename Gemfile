@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'ronin-web-server', '~> 0.1' #, github: 'ronin-rb/ronin-web-server',
+                                 #  branch: 'main'
+
 gem 'ronin-exploits', '~> 1.1' #, github: 'ronin-rb/ronin-exploits',
                                #  branch: '1.1.0'
 
