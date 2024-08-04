@@ -17,6 +17,20 @@ jobs:
       - name: Run rubocop
         run: bundle exec rubocop --parallel
 
+  # exploits linting
+  lint_exploits:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0
+      - name: Install dependencies
+        run: bundle install --jobs 4 --retry 3
+      - name: Lint exploits
+        run: 'bundle exec rake lint:exploits'
+
   # test suite
   tests:
     runs-on: ubuntu-latest
