@@ -10,6 +10,7 @@ group :development do
   gem 'rake', require: false
 
   gem 'rspec',     '~> 3.0', require: false
+  gem 'webmock',   '~> 3.0', require: false
   gem 'simplecov', '~> 0.20'
 
   gem 'redcarpet', platform: :mri
